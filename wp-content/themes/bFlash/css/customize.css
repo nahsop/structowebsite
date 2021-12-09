@@ -1,0 +1,438 @@
+/*
+Theme Name: CEP
+Author: Viki Team
+Author URI: http://www.vikitheme.com
+Version: 1.0.0
+Description: A Beautiful, Professional and Multipurpose Theme Made by Viki Team
+ 	
+*/
+/* ---------------------------------------------------
+    CSS CUSTOM AREA 
+-------------------------------------------------- */
+.vk-header-top .content:after{
+	z-index: -1;
+}
+.text-left{
+	text-align: left !important;
+}
+.text-right{
+	text-align: right !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.vk-banner {
+	z-index: 4;
+}
+.vk-home .vk-heading {
+  margin-bottom: 60px; 
+}
+.heading-wrapper .vk-heading{
+	margin-bottom: 0;
+}
+.vk-baner-slider .vk-banner{
+	background-size: cover;
+	background-position: center;
+}
+ 
+.icon .dashicons,.icon  .dashicons-before:before{
+		display: inline-table;
+	}
+
+.counter-icon{
+
+	display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100px !important;
+    height: 100px !important;
+    border: 2px solid #FFC000;
+    color: #FFC000;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+.vk-counter .counter-icon:before {
+    font-size: 48px;
+}
+.vk-heading{
+	/*margin-bottom: 60px;*/
+}
+.vk-iconbox-element .list-item{
+	padding-bottom: 0;
+}
+.shortcode-packge-grid .content{
+	padding: 0 30px 0 30px;
+    background-color: #F4F4F4;
+}
+.shortcode-packge-grid .content a h4 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+    color: #2E3841;
+}
+.shortcode-packge-grid .content .vk-buttons {
+    padding-bottom: 25px;
+    text-align: right;
+}
+.vk-join-our-team-section h2.vk-heading{
+	/*margin-bottom: 0px !important;*/
+}
+.vk-background-overlay._70{
+	opacity: 0;
+}
+.vk-text-color-yellow-1{
+	/*color: #F05E1E;*/
+	color:#F05E1E;
+}
+.vk-heading-border > span:after, .vk-heading-border > span:before{
+	background-color: #F05E1E;
+}
+@media (min-width: 992px){
+
+	.vk-banner .page-heading.single-feature {
+		bottom: 45px;
+		text-align: left;
+	}
+	.vk-banner .page-subheading.single-feature {
+		position: absolute;
+		bottom: 30px;
+		text-align: left;	
+		color: #fff;
+		left: 15px;
+	}
+}
+.blog-content .info .vk-list li, .blog-content .info .vk-list li:last-child{
+	border-top: 1px  solid #eaeaea;
+}
+
+.vk-text-capitalize a{
+	color: #F05E1E;
+}
+.vk-blog-wrapper .blog-content .info .vk-list li span{
+	color: #000;
+
+	/*font-weight: bold;*/
+}
+.single .content p,.single  .content ul li{
+	color: #000;
+
+}
+.content #includes ul, .itinerary-list{
+	list-style: none;
+}
+.itinerary-list{
+	margin: 0;
+	padding: 0;
+}
+.content #includes ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: green; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 20px;
+}
+.content p a{
+	color: #F05E1E;	
+}
+.vk-tab .vk-nav-tabs li.active a{
+	background: #F05E1E;
+}
+#faq .panel-title{
+	margin: 0;
+	padding-bottom: 0;
+}
+.vk-tab .vk-tab-content .tab-pane{
+	padding-bottom: 15px;
+}
+.itinerary-list h4{
+	margin: 0 !important;
+    padding-bottom: 0 !important;
+    font-size: 18px;
+}
+.itinerary-list h4 span{
+	background: #f3f3f3;
+    padding: 6px;
+}
+.panel-body{
+	color: #000;
+}
+.sidebar-menu.customized .catagory .vk-menu-right li i{
+	position: relative;
+
+}
+.panelled{
+	background: #f3f3f3;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.panelled li a{
+	color: #000;
+}
+.panelled h4{
+	color: #F05E1E;
+}
+.share i{
+    padding: 12px;
+    color: #fff;
+    border-radius: 5px;
+}
+.share i.fa-facebook{
+
+	background: #3b5998 ;
+	padding: 12px 15px;
+}
+.share i.fa-twitter{
+	background: #00acee ;
+	
+}
+.vk-navbar-nav.child{
+
+	background-color: #fff; 
+	border-top: 3px solid #F05E1E;
+}
+.vk-navbar-nav.child .child{
+	background-color: #fff; 
+}
+.vk-navbar-nav.child li a, .vk-navbar-nav.child li span{
+	color: #000;
+	font-size: 13px;
+	text-transform: none;
+	font-weight: normal;
+}
+.vk-navbar-nav.child li:hover > a, .vk-navbar-nav li a:hover{
+	color: #F05E1E;
+
+}
+.vk-navbar-nav.child li{
+	border-bottom: 1px solid transparent;
+}
+.content .quick-address li{
+	color: #000 ;
+}
+.vk-header-transparent .vk-navbar, .vk-header-transparent .vk-header-top, .vk-header-transparent .vk-navbar-header, .vk-header-transparent .vk-header-top .content:after{
+	border-color: transparent;
+}
+.vk-header-transparent .vk-header-top .content:after{
+	background-color: transparent;
+}
+@media (min-width: 1200px){
+	.container-bigger {
+	    /*width: 1525px;*/
+	}
+}
+.vk-banner  .vk-text-color-yellow-1{
+	color: #fff;
+}
+.vk-baner-slider .vk-banner .page-heading{
+	text-align: left;
+}
+.vk-section-style-5 .vk-heading:after{
+	content: none;
+}
+@media (min-width: 992px) {
+	.vk-navbar-nav.child li{
+		position: relative;
+	}
+    .vk-baner-slider .vk-banner .page-heading {
+        position: absolute;
+        /*font-size: 44px;*/
+        top: auto;
+        font-size: 22px;
+        left: 20px;
+        /*letter-spacing: 7px;*/
+        bottom: 210px;
+        /*left: 0;*/
+        /*padding: 15px; */
+    } 
+    .vk-banner-mod .title-main{
+    	font-size: 60px;
+    }
+    .vk-header-transparent .vk-navbar-nav > li:hover > a{
+		color: #F05E1E;
+
+    }
+
+}
+.vk-header-transparent .vk-navbar-nav > li > span:hover, 
+.vk-header-transparent .vk-navbar-nav > li > span:focus, 
+.vk-header-transparent .vk-navbar-nav > li > a:hover, 
+.vk-header-transparent .vk-navbar-nav > li > a:focus
+.current-menu-item > a{
+/*.vk-header-transparent .vk-navbar-nav > li:hover > a{*/
+	color: #F05E1E;
+
+}
+.vk-navbar-nav.child li:hover{
+	background-color: #F05E1E;
+
+}
+.vk-navbar-nav.child li:hover > a{
+	color: #fff;
+}
+.vk-navbar-nav.child{
+	display: none;
+}
+.vk-navbar-nav li:hover > .slicknav_item > a{
+	color: #F05E1E;
+
+}
+.vk-navbar-nav.child li:hover > a a{
+	color: #fff;
+
+}
+.vk-navbar-nav li .menu-arrow{
+	    padding: 16px 10px;
+    width: 100%;
+}
+.page-numbers.current{
+	font-weight: bold;
+	color: #F05E1E;
+	
+}
+.customize-archive-block{
+	position: relative;
+}
+.vk-blog-grid .blog-content .content-box .content.customize-archive-title{
+	position: absolute;
+	bottom: 0;
+	background: transparent;
+	z-index: 11111;
+
+}
+.vk-blog-grid .blog-content .content-box .content.customize-archive-title a h4{
+	color: #fff;
+}
+.vk-blog-grid .blog-content .content-box .content.customize-archive-title a:hover h4{
+	color: #f3f3f3;
+}
+.customize-archive-count{
+	position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 4px 10px;
+    min-height: auto;
+}
+.customize-archive-count:hover{
+	background-color: #f3f3f3 !important ; 
+}
+.vk-blog-wrapper .blog-content h4 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+@media (min-width: 1100px){
+
+	.vk-navbar-nav > li  li > .vk-navbar-nav.child {
+	    /*column-count: 2;*/
+	    /*column-gap: 20px;*/
+	    /*width: 100%;*/
+	}
+	.vk-navbar-nav > li  li > .vk-navbar-nav.child li{
+	    /*display: block;*/
+	}
+}
+@media (min-width: 992px) {
+
+
+	.vk-navbar-nav.main_nav > .menu-item-has-children > a::after {
+	    font-family: 'FontAwesome';
+	    display: inline-block;
+	    vertical-align: middle;
+	    content: "\f107";
+	    border: 0 !important;
+	    font-size: 18px;
+	    color: #000;
+	    padding-left: 7px;
+	}
+	.vk-navbar-nav.main_nav > .menu-item.menu-item-has-children:hover > a::after {
+	    content: "\f106";
+	    /*color: #F05E1E;*/
+	    color: #F05E1E;
+	}
+	.vk-navbar-nav.child > .menu-item-has-children > a::after {
+		font-family: 'FontAwesome';
+	    display: inline-block;
+	    vertical-align: middle;
+	    content: "\f105";
+	    border: 0 !important;
+	    font-size: 18px;
+	    color: #000;
+	    padding-left: 7px;
+	    float: right;
+	}
+	.vk-navbar-nav.child > .menu-item-has-children:hover > a::after{
+		color: #fff;
+	}
+}
+@media (min-width: 992px){
+.vk-header-two-nav .vk-header-top .btn-search {
+    color: #fff;
+    
+}
+}
+.vk-background-fixed {
+    background-attachment: unset;
+}
+.vk-header-transparent .vk-navbar-nav > li.current-menu-item > a {
+
+	color: #F05E1E;
+}
+
+.vk-btn{
+	margin: 10px;
+}
+.vk-btn .title{
+	font-size: initial;
+}
+.videoBG {
+    /*position:fixed;*/
+    z-index: -1;
+
+/*not work if the screen ratio is below 16/9*/
+    width:100%;     
+    height: auto;
+}
+@media (min-aspect-ratio: 16/9) {
+    .videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+/*updated because of extra spacing and border issue in inner pages*/
+.vk-what-we-do-section .left{
+	padding-top: 0px;
+	border-right: none;
+}
+.vk-what-we-do-section .right{
+	border-left: none;
+}
+
+
+.gallery-item{
+	margin: 6px;
+	float: left;
+}
+.vk-header-top .content:after{
+	display: none;
+}
+.container .vk-navbar-header{
+	border:none;
+}
+
+.vk-navbar-header .navbar-brand img
+{
+    width: 60%;
+    height: auto;
+}
+
+.default-col
+{
+	color:#2b2b2b;
+}
